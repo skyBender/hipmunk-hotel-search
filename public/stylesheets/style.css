@@ -1,0 +1,34 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.panel{
+  padding : 5px 15px;
+  border: solid 2px #dedede;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.panel-heading{
+  font-weight: 700;
+}
+
+.clamp-line-3 {
+  display            : -webkit-box;
+  -webkit-line-clamp : 3;
+  -webkit-box-orient : vertical;
+  overflow           : hidden;
+}
+
+.address{
+  font-style: italic;
+}
+
+.description{
+  color: #4e4e4e;
+}

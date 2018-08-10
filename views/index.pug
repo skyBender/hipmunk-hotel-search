@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  each hotel in data
+    div.panel
+      div.panel-heading= hotel.name
+      div.panel-body= hotel.ecstasy
+      div.panel-body.address= hotel.address
+      div.panel-body.clamp-line-3.description= hotel.description
